@@ -38,8 +38,8 @@ export default {
     display: 'flex',
     textAlign: 'center',
     fontSize: '1.2em',
-    color: '#FFF',
-    background: 'rgba(0, 0, 0, 0.7)',
+    color: '#000',
+    background: 'rgba(255, 255, 255, 0.7)',
     zIndex: 800,
     transition: `opacity ${props.fadeSpeed}ms ease-in`,
     opacity: (state === 'entering' || state === 'entered') ? 1 : 0
@@ -73,7 +73,7 @@ export default {
         strokeDasharray: '1,200',
         strokeDashoffset: 0,
         strokeLinecap: 'round',
-        stroke: '#FFF'
+        stroke: '#000'
       }
     }
   })
